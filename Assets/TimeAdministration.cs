@@ -60,7 +60,7 @@ public class TimeAdministration : MonoBehaviour {
             seconds += (int)( ( flame * simulateSpeed ) / (float) fps );
             //デバッグ用
             real = Time.realtimeSinceStartup;
-            Debug.Log((int)( ( flame * simulateSpeed ) / (float)fps ) + "　経過時間　" + ( real - wasReal ));
+            //Debug.Log((int)( ( flame * simulateSpeed ) / (float)fps ) + "　経過時間　" + ( real - wasReal ));
             wasReal = real;
             //デバッグ用終了
             bool flg;
