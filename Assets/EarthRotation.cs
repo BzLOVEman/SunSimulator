@@ -13,6 +13,18 @@ public class EarthRotation : MonoBehaviour {
     //自転周期(単位：秒)
     [SerializeField]
     private float Rotation period;
+
+    //以下現在位置に関する情報
+    //観測者か？（falseなら以下パラメータは確認しない）
+    public protected bool isThereObserver;
+    //経度
+    [SerializeField]
+    private float longitude;
+    //緯度
+    [SerializeField]
+    private float latitude
+    //時刻を主導する
+    public bool doTimeLead;
     //現在の時刻
     private int hour, minutes, seconds;
     private float rotateRad;
