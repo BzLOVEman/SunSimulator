@@ -4,8 +4,16 @@ using UnityEngine;
 //地球の自転
 public class EarthRotation : MonoBehaviour {
 
+    //時間管理プログラムのインスタンス化
     [SerializeField]
     private TimeAdministration worldClock;
+    //地軸の傾き
+    [SerializeField]
+    private float tiltAxis;
+    //自転周期(単位：秒)
+    [SerializeField]
+    private float Rotation period;
+    //現在の時刻
     private int hour, minutes, seconds;
     private float rotateRad;
     float timeWas;
