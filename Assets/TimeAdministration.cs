@@ -285,7 +285,7 @@ public class TimeAdministration : MonoBehaviour
     public int MiliSeconds
     {
         set { this.miliSeconds = value; }
-        get { return this.MiliSeconds; }
+        get { return this.miliSeconds; }
     }
 
     public float SimulateSpeed
