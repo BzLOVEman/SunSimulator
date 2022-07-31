@@ -229,7 +229,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262636031}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09ee457cf93a7824d83e0785756d5773, type: 3}
   m_Name: 
@@ -526,7 +526,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.33e-43, y: 14.822945, z: 9.33e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016726139}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a5ee8a2b0a2da547b460feaad27e9a9, type: 3}
   m_Name: 
@@ -816,7 +816,7 @@ MonoBehaviour:
   minutes: 0
   seconds: 0
   miliSeconds: 0
-  useRealTime: 0
+  useRealTime: 1
   simulateSpeed: 100000
 --- !u!4 &1016726141
 Transform:
@@ -844,6 +844,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234406050}
+  - component: {fileID: 1234406051}
   m_Layer: 0
   m_Name: earthCentor
   m_TagString: Untagged
@@ -868,6 +869,28 @@ Transform:
   m_Father: {fileID: 1016726141}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1234406051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234406049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7fbc3172093ec4cbca36f99f07325c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldClock: {fileID: 0}
+  tiltAxis: 0
+  rotationPeriod: 0
+  year: 0
+  month: 0
+  day: 0
+  hour: 0
+  minutes: 0
+  seconds: 0
+  miliSeconds: 0
 --- !u!1 &1724372213
 GameObject:
   m_ObjectHideFlags: 0
